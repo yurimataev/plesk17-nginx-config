@@ -1,6 +1,6 @@
 # Plesk 17.X Nginx Templates Redirect Fix
 
-By default, Plesk does not use best practices in its nginx config, notably using `if` directives for redirects (see [![If Is Evil](https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/)] for why you shouldn't do this!) This has been unaddressed since Plesk 12.5, despite the issue being brought up on Plesk support forums. These alternate Plesk templates fix the issue.
+By default, Plesk does not use best practices in its nginx config, notably using `if` directives for redirects (see ![If Is Evil](https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/) for why you shouldn't do this!) This has been unaddressed since Plesk 12.5, despite the issue being brought up on Plesk support forums. These alternate Plesk templates fix the issue.
 
 The files also include a hack that allows a virtual domain served by nginx to use multiple IPs. To use this feature, place a file called `extra_ips.php` in the same folder as `vhost.conf` for the domain in question. `extra_ips.php` needs to contain simply the following code:
 
