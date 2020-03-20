@@ -18,4 +18,4 @@ To install these templates, place:
 
 These templates have been tested and work correctly with Plesk 17.8.11 Update #83.
 
-There is also a version that works with Plesk 12.5.
+There is also [![a version that works with Plesk 12.5](https://github.com/yurimataev/plesk125-nginx-config)] .
