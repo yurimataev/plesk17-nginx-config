@@ -13,8 +13,8 @@ $extra_ips = array('1.1.1.1', '2.2.2.2');
 ```
 
 To install these templates, place:
-`nginxSeoSafeRedirects.php` in `/usr/local/psa/admin/conf/templates/custom/domain/service`
-`nginxDomainVirtualHost.php` in `/usr/local/psa/admin/conf/templates/custom/domain`
+* `nginxSeoSafeRedirects.php` in `/usr/local/psa/admin/conf/templates/custom/domain/service`
+* `nginxDomainVirtualHost.php` in `/usr/local/psa/admin/conf/templates/custom/domain`
 
 These templates have been tested and work correctly with Plesk 17.8.11 Update #83.
 
